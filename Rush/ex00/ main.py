@@ -48,7 +48,6 @@ def summarize_tasks():
         for cat, count in summary.items():
             print(f"- {cat}: {count} งาน")
 
-โปรแกรมหลัก
 while True:
     show_menu()
     choice = input("เลือกเมนู (1-5): ")
